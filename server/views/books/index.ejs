@@ -32,7 +32,7 @@
                   <td class="text-center"><%= books[count].Genre %></td>
 
                   <td class="text-center">         
-              <a href="/books/<%= contacts[count]._id %>" class="btn btn-primary">   <!-- Adding edit button  -->
+              <a href="/books/<%= books[count]._id %>" class="btn btn-primary">   <!-- Adding edit button  -->
               <i class="fa fa-pencil-square-o"></i> Edit</a>
 
                   </td>
@@ -40,7 +40,7 @@
                   <td class="text-center">
                    
                     <!-- Adding delete button -->               
-               <a href="/books/delete/<%= contacts[count]._id %>" class="btn btn-danger">
+               <a href="/books/delete/<%= books[count]._id %>" class="btn btn-danger">
               <i class="fa fa-trash-o"></i> Delete</a>
                   </td>
                 </tr>

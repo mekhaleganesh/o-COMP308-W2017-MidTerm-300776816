@@ -1,6 +1,6 @@
 {
-  "name": "comp308-w2017-midterm",
-  "version": "0.0.1",
+  "name": "comp308-w2017-midterm-300776816",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node server.js"
@@ -40,10 +40,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "author": "Tom Tsiliopoulos",
+  "author": "Mekhal Ganesh",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
   "homepage": ""
 }
